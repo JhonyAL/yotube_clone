@@ -1,0 +1,29 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    height: 50px;
+}
+
+.header-content .header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 22px; 
+    font-size: 26px;
+}
+
+.header-content .header-left img {
+    width: 90px;
+}
+
+.header-content .header-center {
+    display: flex;
+    gap: 50px;
+}
+
+.header-content .header-center .search {
+    display: flex;
+    width: 500px;
+    background: red;
+}
