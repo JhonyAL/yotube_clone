@@ -20,10 +20,46 @@
 .header-content .header-center {
     display: flex;
     gap: 50px;
+    padding: 3px;
 }
 
-.header-content .header-center .search {
+.header-content .header-center .header-center-content {
     display: flex;
-    width: 500px;
-    background: red;
+    position: relative;
+    width: 700px;
+    padding: 0 100px;
+}
+
+.header-content .header-center .header-center-content .search {
+    display: flex;
+    position: relative;
+    width: 650px;
+    padding: 0 20px;
+}
+
+.header-content .header-center .header-center-content .search input {
+    padding: 10px 15px;
+    height: 20px;
+    width: 600px;
+    border-radius: 60px;
+    border: 1px solid #a0a0a0;
+    background: rgba(0, 0, 0, 0);
+    color: #e2e2e2;
+    outline: none;
+}
+
+.header-content .header-center .header-center-content .search .keyboard {
+    position: absolute;
+    right: 100px;
+    top: 7px;
+    font-size: 25px;
+}
+
+.header-content .header-center .header-center-content .search .rest-input {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 20px;
+    border-radius: 0 50px 50px 0;
+    background-color: #e2e2e2;
 }
