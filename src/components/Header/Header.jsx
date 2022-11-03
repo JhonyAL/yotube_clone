@@ -24,7 +24,7 @@ export default function Header() {
             <div className="search">
               <input type="text" placeholder="Pesquisar" />
               <BsKeyboard className="keyboard"/>
-              <div className="rest-input">                
+              <div className="rest-input" title="Pesquisar">                
                 <div className="search-icon">
                     <BiSearch />
                 </div>
